@@ -87,7 +87,7 @@ const Header = () => {
                         <div className="">
 
                             <div className="flex-none">
-                                <ul className="menu menu-horizontal px-1">
+                                <ul className="flex items-center gap-4 px-1">
 
                                     {/* list-1 */}
                                     <li className="relative group flex items-center gap-2">
@@ -96,9 +96,9 @@ const Header = () => {
                                             >
                                             </span>
                                         </button>
-                                        <ul className="hidden group-hover:block absolute bg-white text-black mt-1 top-8 p-8 rounded-md shadow-lg">
+                                        <ul className="hidden gap-5 group-hover:block absolute bg-white text-black mt-1 top-8 px-8 text-xl rounded-md shadow-lg">
                                             <li>
-                                                <button className="block px-2 py-1 hover:bg-gray-100 border w-full">Home one</button>
+                                                <button className="block px-2 py-1 hover:bg-gray-100">Home one</button>
                                             </li>
                                             <li>
                                                 <button className="block px-2 py-1 hover:bg-gray-100">Home two</button>
@@ -115,11 +115,43 @@ const Header = () => {
                                             <li>
                                                 <button className="block px-2 py-1 hover:bg-gray-100">Home six</button>
                                             </li>
-                                           
+                                            <li>
+                                                <button className="block px-2 py-1 hover:bg-gray-100">Home seven</button>
+                                            </li>
                                         </ul>
                                         <span className="text-gray-300"></span>
                                     </li>
+
                                     {/* list-2 */}
+                                    <li className="relative group flex items-center gap-2">
+                                        <button className=" flex items-center text-base-100 hover:text-black text-xl ">
+                                            Categories <span className="text-center "><IoIosArrowDown /
+                                            >
+                                            </span>
+                                        </button>
+                                        <ul className="hidden group-hover:block absolute bg-white text-black mt-1 top-8 p-8 rounded-md shadow-lg">
+                                            <li>
+                                                <button className="block px-2 py-1 hover:bg-gray-100">Tours</button>
+                                            </li>
+                                            <li>
+                                                <button className="block px-2 py-1 hover:bg-gray-100">Flights</button>
+                                            </li>
+                                            <li>
+                                                <button className="block px-2 py-1 hover:bg-gray-100">Hotel</button>
+                                            </li>
+                                            <li>
+                                                <button className="block px-2 py-1 hover:bg-gray-100">Visa</button>
+                                            </li>
+                                            <li>
+                                                <button className="block px-2 py-1 hover:bg-gray-100">Bus</button>
+                                            </li>
+                                            <li>
+                                                <button className="block px-2 py-1 hover:bg-gray-100">Apartments</button>
+                                            </li>
+                                        </ul>
+                                        <span className="text-gray-300"></span>
+                                    </li>
+                                    {/* list-3 */}
                                     <li className="relative group flex items-center gap-2">
                                         <button className=" flex items-center text-base-100 hover:text-black text-xl ">
                                             Pages <span className="text-center "><IoIosArrowDown /
@@ -128,18 +160,33 @@ const Header = () => {
                                         </button>
                                         <ul className="hidden group-hover:block absolute bg-white text-black mt-1 top-8 p-8 rounded-md shadow-lg">
                                             <li>
-                                                <button className="block px-2 py-1 hover:bg-gray-100">English</button>
+                                                <button className="block px-2 py-1 hover:bg-gray-100">About
+                                                </button>
                                             </li>
                                             <li>
-                                                <button className="block px-2 py-1 hover:bg-gray-100">Bangla</button>
+                                                <button className="block px-2 py-1 hover:bg-gray-100">Team
+                                                </button>
                                             </li>
                                             <li>
-                                                <button className="block px-2 py-1 hover:bg-gray-100">Hindi</button>
+                                                <button className="block px-2 py-1 hover:bg-gray-100">Testimonials
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button className="block px-2 py-1 hover:bg-gray-100">FAQ
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button className="block px-2 py-1 hover:bg-gray-100">Booking Confirmation
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button className="block px-2 py-1 hover:bg-gray-100">Become Expert
+                                                </button>
                                             </li>
                                         </ul>
                                         <span className="text-gray-300"></span>
                                     </li>
-                                    {/* list-3 */}
+                                    {/* list-4 */}
                                     <li className="relative group flex items-center gap-2">
                                         <button className=" flex items-center text-base-100 hover:text-black text-xl ">
                                             Dashboard <span className="text-center "><IoIosArrowDown /
@@ -148,18 +195,27 @@ const Header = () => {
                                         </button>
                                         <ul className="hidden group-hover:block absolute bg-white text-black mt-1 top-8 p-8 rounded-md shadow-lg">
                                             <li>
-                                                <button className="block px-2 py-1 hover:bg-gray-100">English</button>
+                                                <button className="block px-2 py-1 hover:bg-gray-100">Dashboard</button>
                                             </li>
                                             <li>
-                                                <button className="block px-2 py-1 hover:bg-gray-100">Bangla</button>
+                                                <button className="block px-2 py-1 hover:bg-gray-100">Hotel booking</button>
                                             </li>
                                             <li>
-                                                <button className="block px-2 py-1 hover:bg-gray-100">Hindi</button>
+                                                <button className="block px-2 py-1 hover:bg-gray-100">Tour booking</button>
+                                            </li>
+                                            <li>
+                                                <button className="block px-2 py-1 hover:bg-gray-100">Flight booking</button>
+                                            </li>
+                                            <li>
+                                                <button className="block px-2 py-1 hover:bg-gray-100">Tour booking</button>
+                                            </li>
+                                            <li>
+                                                <button className="block px-2 py-1 hover:bg-gray-100">Wallet</button>
                                             </li>
                                         </ul>
                                         <span className="text-gray-300"></span>
                                     </li>
-                                    {/* list-4 */}
+                                    {/* list-5 */}
                                     <li className="relative group flex items-center gap-2">
                                         <button className=" flex items-center text-base-100 hover:text-black text-xl ">
                                             News <span className="text-center "><IoIosArrowDown /
@@ -168,18 +224,27 @@ const Header = () => {
                                         </button>
                                         <ul className="hidden group-hover:block absolute bg-white text-black mt-1 top-8 p-8 rounded-md shadow-lg">
                                             <li>
-                                                <button className="block px-2 py-1 hover:bg-gray-100">English</button>
+                                                <button className="block px-2 py-1 hover:bg-gray-100">News</button>
                                             </li>
                                             <li>
-                                                <button className="block px-2 py-1 hover:bg-gray-100">Bangla</button>
+                                                <button className="block px-2 py-1 hover:bg-gray-100">News v1</button>
                                             </li>
                                             <li>
-                                                <button className="block px-2 py-1 hover:bg-gray-100">Hindi</button>
+                                                <button className="block px-2 py-1 hover:bg-gray-100">News v2</button>
+                                            </li>
+                                            <li>
+                                                <button className="block px-2 py-1 hover:bg-gray-100">News v3</button>
+                                            </li>
+                                            <li>
+                                                <button className="block px-2 py-1 hover:bg-gray-100">News v4</button>
+                                            </li>
+                                            <li>
+                                                <button className="block px-2 py-1 hover:bg-gray-100">News Details</button>
                                             </li>
                                         </ul>
                                         <span className="text-gray-300"></span>
                                     </li>
-                                    {/* list-5 */}
+                                    {/* list-6 */}
                                     <li className="relative group flex items-center gap-2">
                                         <button className=" flex items-center text-base-100 hover:text-black text-xl ">
                                             Contact <span className="text-center "><IoIosArrowDown /
@@ -187,15 +252,17 @@ const Header = () => {
                                             </span>
                                         </button>
                                         <ul className="hidden group-hover:block absolute bg-white text-black mt-1 top-8 p-8 rounded-md shadow-lg">
+                                           
                                             <li>
-                                                <button className="block px-2 py-1 hover:bg-gray-100">English</button>
+                                                <button className="block px-2 py-1 hover:bg-gray-100">News v1</button>
                                             </li>
                                             <li>
-                                                <button className="block px-2 py-1 hover:bg-gray-100">Bangla</button>
+                                                <button className="block px-2 py-1 hover:bg-gray-100">News v2</button>
                                             </li>
                                             <li>
-                                                <button className="block px-2 py-1 hover:bg-gray-100">Hindi</button>
+                                                <button className="block px-2 py-1 hover:bg-gray-100">News v3</button>
                                             </li>
+                                           
                                         </ul>
                                         <span className="text-gray-300"></span>
                                     </li>
