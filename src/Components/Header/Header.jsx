@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { IoIosArrowDown } from "react-icons/io";
 import logo from '../../assets/logo.png'
@@ -6,11 +6,13 @@ import hero from '../../assets/hero-5.jpg'
 import { GoSearch } from "react-icons/go";
 
 const Header = () => {
+   
+
     return (
-        <header className=" h-screen relative">
+        <header className=" h-screen relative ">
             <nav className="max-w-7xl mx-auto px-10 absolute z-40 w-full">
                 {/* Top Navbar Section */}
-                <div className="flex flex-wrap justify-between py-2 border-b border-base-300">
+                <div className="flex flex-wrap justify-between py-2 border-b border-base-100/20">
                     <div className="flex items-center gap-3">
                         {/* Social Icons */}
                         <div className="text-xl flex gap-2 pr-5 border-r border-white">
@@ -80,7 +82,8 @@ const Header = () => {
                         </ul>
                     </div>
                 </div>
-                <div className="flex justify-between items-center py-5">
+                {/* second nav */}
+                <div className="flex justify-between items-center py-5  ">
                     <div className="">
                         <img src={logo} alt="" className="" />
                     </div>
@@ -91,13 +94,13 @@ const Header = () => {
                                 <ul className="flex items-center gap-4 px-1">
 
                                     {/* list-1 */}
-                                    <li className="relative group flex items-center gap-2">
+                                    <li className="relative group flex items-center gap-2 hover:border-b hover:border-white hover:transform-border hover:duration-1000  ">
                                         <button className=" flex items-center text-base-100 hover:text-black text-xl ">
                                             Home <span className="text-center "><IoIosArrowDown /
                                             >
                                             </span>
                                         </button>
-                                        <ul className="hidden gap-5 group-hover:block absolute  bg-white text-black w-64 mt-1 top-8 px-8 text-xl rounded-md shadow-lg">
+                                        <ul className="hidden gap-5 group-hover:block absolute   transform duration-1000 bg-white text-black w-60  mt-1 top-8 p-5  rounded-md shadow-lg">
                                             <li>
                                                 <button className="block px-2 py-1 hover:bg-gray-100">Home one</button>
                                             </li>
@@ -118,6 +121,12 @@ const Header = () => {
                                             </li>
                                             <li>
                                                 <button className="block px-2 py-1 hover:bg-gray-100">Home seven</button>
+                                            </li>
+                                            <li>
+                                                <button className="block px-2 py-1 hover:bg-gray-100">Home eight</button>
+                                            </li>
+                                            <li>
+                                                <button className="block px-2 py-1 hover:bg-gray-100">Home nine</button>
                                             </li>
                                         </ul>
                                         <span className="text-gray-300"></span>
@@ -279,13 +288,14 @@ const Header = () => {
 
                 </div>
                 <div>
-                    <h1 className="text-7xl font-medium text-base-100 text-center pt-52 ">Explore the world together</h1>
+                    <h1 className="text-7xl font-medium text-base-100 text-center pt-40 ">Explore the world together</h1>
                     <p className="text-3xl  pt-5 text-center text-base-100">Find awesome flights, hotel, tour, car and packages
                     </p>
                 </div>
             </nav>
             <div className="absolute inset-0 z-10">
-                <img src={hero} alt="Hero Image" className="w-full h-full object-cover opacity-95" />
+                <img src={hero} alt="Hero Image"     className="w-full h-[calc(100vh+h-32)] object-cover opacity-95" 
+ />
             </div>
         </header>
     );
