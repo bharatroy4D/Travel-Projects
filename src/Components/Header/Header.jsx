@@ -11,8 +11,8 @@ const Header = () => {
         <header className=" h-screen relative ">
             <nav className="max-w-7xl mx-auto px-10 absolute z-40 w-full">
                 {/* Top Navbar Section */}
-                <div className="flex flex-wrap justify-between py-2 border-b border-base-100/20">
-                    <div className="flex items-center gap-3">
+                <div className="flex justify-between py-2 md:border-b border-base-100/20 ">
+                    <div className="hidden md:inline-flex items-center gap-3">
                         {/* Social Icons */}
                         <div className=" flex gap-2 pr-5 border-r border-white">
                             <FaFacebook className="text-white cursor-pointer" />
@@ -28,7 +28,7 @@ const Header = () => {
                     </div>
                     {/* Menu Section */}
                     <div className="text-white ">
-                        <ul className="flex items-center gap-4 font-medium">
+                        <ul className="hidden md:inline-flex items-center gap-4 font-medium">
                             <li className="flex items-center gap-2">
                                 <button className="hover:text-black">Login</button>
                                 <span className="text-gray-300">|</span>
@@ -293,7 +293,7 @@ const Header = () => {
                 </div>
             </nav>
             <div className="absolute inset-0 z-10">
-                <img src={hero} alt="Hero Image" className=" w-full h-screen object-cover opacity-95 "/>
+                <img src={hero} alt="Hero Image" className=" w-full h-screen object-cover opacity-95 " />
             </div>
         </header>
     );
