@@ -40,7 +40,7 @@ const TypeCategories = () => {
     ]
     return (
         <div>
-            <div className='flex items-center justify-center gap-6 py-5 w-[95%] mx-auto  my-5 '>
+            <div className='flex flex-wrap items-center justify-center gap-6 py-5 w-[95%] mx-auto  my-5 '>
                 {
                     categories.map(category =>(
                         <div className='flex items-center gap-2 text-xl border hover:bg-blue-600 hover:text-white hover:border-none hover:cursor-pointer  border-blue-600 rounded py-2 px-4'>

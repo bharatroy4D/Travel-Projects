@@ -6,8 +6,8 @@ const Footer = () => {
             <div className="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 px-5">
                 {/* Need to Help */}
                 <div>
-                    <h3 className="text-lg font-semibold mb-3">Need to Help</h3>
-                    <ul className="space-y-2">
+                    <h3 className="text-lg font-medium mb-3">Need to Help</h3>
+                    <ul className="space-y-2 text-gray-400">
                         <li>Contact Us</li>
                         <li>FAQs</li>
                         <li>Live Chat</li>
@@ -17,8 +17,8 @@ const Footer = () => {
 
                 {/* Company */}
                 <div>
-                    <h3 className="text-lg font-semibold mb-3">Company</h3>
-                    <ul className="space-y-2">
+                    <h3 className="text-lg font-medium mb-3">Company</h3>
+                    <ul className="space-y-2 text-gray-400">
                         <li>About Us</li>
                         <li>Careers</li>
                         <li>Press</li>
@@ -28,8 +28,8 @@ const Footer = () => {
 
                 {/* Support */}
                 <div>
-                    <h3 className="text-lg font-semibold mb-3">Support</h3>
-                    <ul className="space-y-2">
+                    <h3 className="text-lg font-medium mb-3">Support</h3>
+                    <ul className="space-y-2 text-gray-400">
                         <li>Help Center</li>
                         <li>Terms of Service</li>
                         <li>Privacy Policy</li>
@@ -39,8 +39,8 @@ const Footer = () => {
 
                 {/* Other Services */}
                 <div>
-                    <h3 className="text-lg font-semibold mb-3">Other Services</h3>
-                    <ul className="space-y-2">
+                    <h3 className="text-lg font-medium mb-3">Other Services</h3>
+                    <ul className="space-y-2 text-gray-400">
                         <li>Travel Insurance</li>
                         <li>Car Rentals</li>
                         <li>Flight Booking</li>
@@ -50,8 +50,8 @@ const Footer = () => {
 
                 {/* Top Places */}
                 <div>
-                    <h3 className="text-lg font-semibold mb-3">Top Places</h3>
-                    <ul className="space-y-2">
+                    <h3 className="text-lg font-medium mb-3">Top Places</h3>
+                    <ul className="space-y-2 text-gray-400">
                         <li>Paris</li>
                         <li>New York</li>
                         <li>London</li>

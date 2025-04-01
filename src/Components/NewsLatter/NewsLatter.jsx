@@ -3,7 +3,7 @@ import { IoMailOpenOutline } from 'react-icons/io5';
 
 const NewsLatter = () => {
     return (
-        <div className='flex justify-between items-center max-w-7xl px-10  py-20 bg-blue-50'>
+        <div className='md:flex justify-between items-center max-w-7xl px-10  py-20 bg-blue-50'>
             {/* div-1 */}
             <div>
                 <div className='flex gap-5 items-center'>
@@ -16,7 +16,7 @@ const NewsLatter = () => {
             </div>
 
             {/* div-2 */}
-            <div className='flex border rounded-r w-[40%]'>
+            <div className='flex border rounded-r md:w-[40%] mt-20 md:mt-0'>
                 <input type="email" name="email" id="" placeholder='Enter your email' className=' w-full py-3 px-3 outline-none ' />
                 <button className=' py-3 px-3 border rounded-r bg-blue-600 text-white'>Subscribe</button>
             </div>

@@ -6,9 +6,9 @@ import customer from '../../assets/customer.png'
 const Imagination = () => {
     return (
         <div>
-            <div className='flex gap-6 py-15 px-10 mx-w-7xl mx-auto'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 py-15 px-10 '>
                 {/* card-1 */}
-                <div className="card bg-base-100 w-96 shadow-sm hover:shadow-xl transition-transform hover:-translate-y-6 duration-700">
+                <div className="card bg-base-100 md:w-96 shadow-sm hover:shadow-xl transition-transform hover:-translate-y-6 duration-700">
                     <figure className="px-10 pt-10">
                         <img
                             src={plan}
@@ -21,7 +21,7 @@ const Imagination = () => {
                     </div>
                 </div>
                 {/* card-2 */}
-                <div className="card bg-base-100 w-96 shadow-sm hover:shadow-xl transition-transform hover:-translate-y-6 duration-700">
+                <div className="card bg-base-100 m:w-96 shadow-sm hover:shadow-xl transition-transform hover:-translate-y-6 duration-700">
                     <figure className="px-10 pt-10">
                         <img
                             src={price}
@@ -35,7 +35,7 @@ const Imagination = () => {
                     </div>
                 </div>
                 {/* card-3 */}
-                <div className="card bg-base-100 w-96 shadow-sm hover:shadow-xl transition-transform hover:-translate-y-6 duration-700">
+                <div className="card bg-base-100 md:w-96 shadow-sm hover:shadow-xl transition-transform hover:-translate-y-6 duration-700">
                     <figure className="px-10 pt-10">
                         <img
                             src={customer}
