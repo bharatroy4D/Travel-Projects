@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { IoIosArrowDown } from "react-icons/io";
 import logo from '../../assets/logo.png'
@@ -6,7 +5,7 @@ import hero from '../../assets/hero-5.jpg'
 import { GoSearch } from "react-icons/go";
 
 const Header = () => {
-   
+
 
     return (
         <header className=" h-screen relative ">
@@ -15,7 +14,7 @@ const Header = () => {
                 <div className="flex flex-wrap justify-between py-2 border-b border-base-100/20">
                     <div className="flex items-center gap-3">
                         {/* Social Icons */}
-                        <div className="text-xl flex gap-2 pr-5 border-r border-white">
+                        <div className=" flex gap-2 pr-5 border-r border-white">
                             <FaFacebook className="text-white cursor-pointer" />
                             <FaInstagram className="text-white cursor-pointer" />
                             <FaTwitter className="text-white cursor-pointer" />
@@ -294,8 +293,7 @@ const Header = () => {
                 </div>
             </nav>
             <div className="absolute inset-0 z-10">
-                <img src={hero} alt="Hero Image"     className="w-full h-[calc(100vh+h-32)] object-cover opacity-95" 
- />
+                <img src={hero} alt="Hero Image" className=" w-full h-screen object-cover opacity-95 "/>
             </div>
         </header>
     );
