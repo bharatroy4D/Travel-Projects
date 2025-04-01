@@ -59,9 +59,9 @@ const Footer = () => {
                     </ul>
                 </div>
             </div>
-            <div>
+            <div className="flex justify-between items-center pt-10 px-10 ">
                 <p>Copyright © 2022 All Rights Reserved</p>
-                <div>
+                <div className="flex gap-3 text-4xl">
                 <FaCcVisa/>
                 <FaCcPaypal/>
                 <FaCcJcb/>

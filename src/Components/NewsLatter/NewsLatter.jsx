@@ -3,7 +3,7 @@ import { IoMailOpenOutline } from 'react-icons/io5';
 
 const NewsLatter = () => {
     return (
-        <div className='flex justify-between items-center max-w-7xl px-10 my-20 py-10 bg-blue-50'>
+        <div className='flex justify-between items-center max-w-7xl px-10  py-20 bg-blue-50'>
             {/* div-1 */}
             <div>
                 <div className='flex gap-5 items-center'>

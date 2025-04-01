@@ -16,7 +16,7 @@ const Destination = () => {
                     <div className="bg-purple-100 p-6 rounded-xl shadow-md">
                         <div className="flex justify-between items-center">
                             <p className="text-gray-500 font-semibold">From :</p>
-                            <MdOutlineFlightTakeoff className="text-3xl"/>
+                            <MdOutlineFlightTakeoff className="text-3xl" />
 
                         </div>
                         <input
@@ -32,8 +32,8 @@ const Destination = () => {
                     {/* Cruise Line Card */}
                     <div className="bg-purple-100 p-6 rounded-xl shadow-md">
                         <div className="flex justify-between items-center">
-                        <p className="text-gray-500 font-semibold ">To :</p>
-                        <MdOutlineFlightLand className="text-3xl"/>
+                            <p className="text-gray-500 font-semibold ">To :</p>
+                            <MdOutlineFlightLand className="text-3xl" />
                         </div>
                         <input
                             type="text"
@@ -47,7 +47,10 @@ const Destination = () => {
 
                     {/* Journey Date Card */}
                     <div className="bg-purple-100 p-6 rounded-xl shadow-md flex flex-col">
-                        <p className="text-gray-500 text-sm">Journey date</p>
+                        <div className="flex justify-between ">
+                            <p className="text-gray-500 text-sm font-semibold">Journey date</p>
+                            <FaCalendarAlt className="text-black text-lg" />
+                        </div>
                         <div className="flex items-center gap-2 mt-1">
                             <input
                                 type="date"
@@ -55,7 +58,6 @@ const Destination = () => {
                                 onChange={(e) => setDate(e.target.value)}
                                 className="bg-transparent outline-none  focus:border-purple-600"
                             />
-                            <FaCalendarAlt className="text-black text-lg" />
                         </div>
                     </div>
 
