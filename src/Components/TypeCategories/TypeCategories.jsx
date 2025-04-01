@@ -9,7 +9,7 @@ const TypeCategories = () => {
     const categories = [
         {
             name: "Flight",
-            icon: <GiAirplaneDeparture />
+            icon: <GiAirplaneDeparture className='text-2xl' />
         },
         {
             name:"Tour",
