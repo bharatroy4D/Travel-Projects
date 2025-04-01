@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { FaCalendarAlt } from "react-icons/fa";
+import { MdOutlineFlightLand, MdOutlineFlightTakeoff } from "react-icons/md";
 
 const Destination = () => {
     const [destination, setDestination] = useState("");
@@ -13,7 +14,11 @@ const Destination = () => {
 
                     {/* Destination Card */}
                     <div className="bg-purple-100 p-6 rounded-xl shadow-md">
-                        <p className="text-gray-500 ">From :</p>
+                        <div className="flex justify-between items-center">
+                            <p className="text-gray-500 font-semibold">From :</p>
+                            <MdOutlineFlightTakeoff className="text-3xl"/>
+
+                        </div>
                         <input
                             type="text"
                             placeholder="Where are you going..."
@@ -26,7 +31,10 @@ const Destination = () => {
 
                     {/* Cruise Line Card */}
                     <div className="bg-purple-100 p-6 rounded-xl shadow-md">
-                        <p className="text-gray-500 ">To :</p>
+                        <div className="flex justify-between items-center">
+                        <p className="text-gray-500 font-semibold ">To :</p>
+                        <MdOutlineFlightLand className="text-3xl"/>
+                        </div>
                         <input
                             type="text"
                             placeholder="cruise line..."
@@ -35,7 +43,7 @@ const Destination = () => {
                             className="mt-1 w-full bg-transparent  outline-none focus:border-purple-600 text-lg"
                         />
                         <p className="text-sm">Chose your Cruise line</p>
-                        </div>
+                    </div>
 
                     {/* Journey Date Card */}
                     <div className="bg-purple-100 p-6 rounded-xl shadow-md flex flex-col">
