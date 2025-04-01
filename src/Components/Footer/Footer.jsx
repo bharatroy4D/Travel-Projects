@@ -1,3 +1,5 @@
+import { FaCcJcb, FaCcMastercard, FaCcPaypal, FaCcVisa } from "react-icons/fa";
+
 const Footer = () => {
     return (
         <footer className="bg-gray-900 text-white py-10">
@@ -55,6 +57,15 @@ const Footer = () => {
                         <li>London</li>
                         <li>Dubai</li>
                     </ul>
+                </div>
+            </div>
+            <div>
+                <p>Copyright © 2022 All Rights Reserved</p>
+                <div>
+                <FaCcVisa/>
+                <FaCcPaypal/>
+                <FaCcJcb/>
+                <FaCcMastercard/>
                 </div>
             </div>
         </footer>
