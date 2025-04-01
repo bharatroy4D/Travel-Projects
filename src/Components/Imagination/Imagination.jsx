@@ -8,7 +8,7 @@ const Imagination = () => {
         <div>
             <div className='flex gap-6 py-15 px-10 mx-w-7xl mx-auto'>
                 {/* card-1 */}
-                <div className="card bg-base-100 w-96 shadow-sm">
+                <div className="card bg-base-100 w-96 shadow-sm hover:shadow-2xl transition-transform hover:-translate-y-6 duration-700">
                     <figure className="px-10 pt-10">
                         <img
                             src={plan}
