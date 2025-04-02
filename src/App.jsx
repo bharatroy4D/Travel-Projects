@@ -5,6 +5,7 @@ import Footer from './Components/Footer/Footer'
 import Header from './Components/Header/Header'
 import Imagination from './Components/Imagination/Imagination'
 import NewsLatter from './Components/NewsLatter/NewsLatter'
+import PopularTours from './Components/PopularTours/PopularTours'
 import TypeCategories from './Components/TypeCategories/TypeCategories'
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
           <Destination></Destination>
         </div>
         <Imagination></Imagination>
+        <PopularTours></PopularTours>
         <NewsLatter></NewsLatter>
         <Footer></Footer>
       </div>
