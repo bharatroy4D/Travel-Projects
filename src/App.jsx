@@ -1,10 +1,12 @@
 
 import './App.css'
+import Categories from './Components/Categories/Categories'
 import Destination from './Components/Destination/Destination'
 import Footer from './Components/Footer/Footer'
 import Header from './Components/Header/Header'
 import Imagination from './Components/Imagination/Imagination'
 import NewsLatter from './Components/NewsLatter/NewsLatter'
+import Places from './Components/Places/Places'
 import PopularTours from './Components/PopularTours/PopularTours'
 import TypeCategories from './Components/TypeCategories/TypeCategories'
 function App() {
@@ -19,6 +21,10 @@ function App() {
         </div>
         <Imagination></Imagination>
         <PopularTours></PopularTours>
+        <div>
+          <Categories></Categories>
+          <Places></Places>
+        </div>
         <NewsLatter></NewsLatter>
         <Footer></Footer>
       </div>

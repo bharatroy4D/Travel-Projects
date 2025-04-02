@@ -2,11 +2,12 @@ import React from 'react';
 import { FaStar } from 'react-icons/fa';
 import { IoLocationSharp } from 'react-icons/io5';
 
-const PopularTour = ({ popularTour }) => {
-    const { name, image, location, description, rating } = popularTour;
+const Place = ({ place }) => {
+    const { name, image, location, description, rating } = place;
+
     return (
         <div>
-            <div className="card bg-base-100 h-96 md:w-96 shadow-sm  hover:shadow hover:border border-gray-300">
+            <div className="card bg-base-100 h-80  shadow-sm  hover:shadow hover:border border-gray-300">
                 <figure>
                     <img
                         src={image}
@@ -33,4 +34,4 @@ const PopularTour = ({ popularTour }) => {
     );
 };
 
-export default PopularTour;
+export default Place;
