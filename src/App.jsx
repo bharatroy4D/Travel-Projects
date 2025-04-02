@@ -1,4 +1,5 @@
 
+import { useState } from 'react'
 import './App.css'
 import Categories from './Components/Categories/Categories'
 import Destination from './Components/Destination/Destination'
@@ -10,6 +11,11 @@ import Places from './Components/Places/Places'
 import PopularTours from './Components/PopularTours/PopularTours'
 import TypeCategories from './Components/TypeCategories/TypeCategories'
 function App() {
+  const [data , setData] = useState([]);
+
+  const handleFilterData = (newData) =>{
+    setData(newData);
+  }
 
   return (
     <>
@@ -22,8 +28,8 @@ function App() {
         <Imagination></Imagination>
         <PopularTours></PopularTours>
         <div>
-          <Categories></Categories>
-          <Places></Places>
+          <Categories handleFilterData={handleFilterData}></Categories>
+          <Places data={data}></Places>
         </div>
         <NewsLatter></NewsLatter>
         <Footer></Footer>
