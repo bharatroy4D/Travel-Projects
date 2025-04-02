@@ -15,13 +15,13 @@ const PopularTours = () => {
     return (
         <div className='px-10'>
             <div className='flex justify-between'>
-                <h1 className='text-4xl font-medium pb-8'>Popular Tours</h1>
-                <div className='flex gap-1  items-center text-3xl'>
-                    <FaArrowCircleLeft/>
-                    <FaArrowCircleRight/>
+                <h1 className='text-4xl text-center md:text-left font-medium pb-8'>Popular Tours</h1>
+                <div className='hidden md:inline-flex gap-1  items-center text-3xl '>
+                    <FaArrowCircleLeft className='hover:text-blue-600 transform hover:scale-110'/>
+                    <FaArrowCircleRight className='hover:text-blue-600 transform hover:scale-110'/>
                 </div>
             </div>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
                 {
                     popularData.map(popularTour => <PopularTour
                         key={popularTour.id}

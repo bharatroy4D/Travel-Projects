@@ -34,7 +34,7 @@
         "name": "Sajek Valley",
         "image": "https://i.pinimg.com/736x/75/64/54/756454e4f3a20a230882ed42ca13b926.jpg",
         "description": "A breathtaking hilltop destination with stunning sunrise and sunset views.",
-        "category": "Hill",
+        "category": "Historical",
         "price": 4500,
         "rating": 4.8,
         "location": "Rangamati, Chattogram"
@@ -44,7 +44,7 @@
         "name": "Rangamati",
         "image": "https://i.pinimg.com/736x/12/1b/78/121b786ca8343a64618876639bbadba8.jpg",
         "description": "A peaceful hill district known for its beautiful lakes, waterfalls, and tribal culture.",
-        "category": "Hill",
+        "category": "Historical",
         "price": 4000,
         "rating": 4.6,
         "location": "Rangamati, Chattogram"
