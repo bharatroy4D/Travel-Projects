@@ -82,7 +82,7 @@
       {
         "id": 9,
         "name": "Kuakata",
-        "image": "https://example.com/images/kuakata.jpg",
+        "image": "https://i.pinimg.com/736x/f6/9b/ea/f69bea6537043df089e23d0b9ee08f64.jpg",
         "description": "Known as the 'Daughter of the Sea', famous for sunrise and sunset views over the ocean.",
         "category": "Beach",
         "price": 5200,
@@ -91,8 +91,8 @@
       },
       {
         "id": 10,
-        "name": "Puthia Temple Complex",
-        "image": "https://example.com/images/puthia.jpg",
+        "name": "Puthia Temple",
+        "image": "https://i.pinimg.com/736x/e5/55/6a/e5556added1608364aa655a94b8aff2b.jpg",
         "description": "A historical site with stunning Hindu temples and intricate architecture.",
         "category": "Historical",
         "price": 2500,
@@ -102,7 +102,7 @@
       {
         "id": 11,
         "name": "Mahasthangarh",
-        "image": "https://example.com/images/mahasthangarh.jpg",
+        "image": "https://i.pinimg.com/736x/0e/57/93/0e5793d3a030e8a17cd8263cdc0da633.jpg",
         "description": "The oldest archaeological site in Bangladesh, with remnants of ancient civilizations.",
         "category": "Historical",
         "price": 2800,
@@ -112,7 +112,7 @@
       {
         "id": 12,
         "name": "Ratargul Swamp Forest",
-        "image": "https://example.com/images/ratargul.jpg",
+        "image": "https://i.pinimg.com/736x/4a/98/ff/4a98ff21152ab67827983407d3e3ee27.jpg",
         "description": "A stunning freshwater swamp forest, a must-visit for nature lovers.",
         "category": "Nature",
         "price": 3200,
@@ -122,7 +122,7 @@
       {
         "id": 13,
         "name": "Lawachara National Park",
-        "image": "https://example.com/images/lawachara.jpg",
+        "image": "https://i.pinimg.com/736x/19/d8/1d/19d81d78c611bc61f0e66dff4715f36b.jpg",
         "description": "A rich biodiversity hotspot and home to rare species like the hoolock gibbons.",
         "category": "Wildlife",
         "price": 3700,
@@ -132,7 +132,7 @@
       {
         "id": 14,
         "name": "Sonargaon",
-        "image": "https://example.com/images/sonargaon.jpg",
+        "image": "https://i.pinimg.com/736x/fd/2f/75/fd2f75de4906004e8900d47eb32a06ba.jpg",
         "description": "The ancient capital of Bengal, filled with historic buildings and folk art museums.",
         "category": "Historical",
         "price": 2900,
@@ -142,7 +142,7 @@
       {
         "id": 15,
         "name": "Bichanakandi",
-        "image": "https://example.com/images/bichanakandi.jpg",
+        "image": "https://i.pinimg.com/736x/e2/4b/6b/e24b6bf4245a58e1e3a6cc1069ac1b00.jpg",
         "description": "A natural wonder with stone fields, rivers, and green hills meeting the clouds.",
         "category": "Nature",
         "price": 3400,
@@ -152,7 +152,7 @@
       {
         "id": 16,
         "name": "Tanguar Haor",
-        "image": "https://example.com/images/tanguarhaor.jpg",
+        "image": "https://i.pinimg.com/736x/07/23/df/0723df833cd87aa0c6c2a9fd342b8485.jpg",
         "description": "A vast wetland ecosystem with stunning views, perfect for boat trips.",
         "category": "Nature",
         "price": 3800,
