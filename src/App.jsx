@@ -19,9 +19,9 @@ function App() {
 
   return (
     <>
-      <div className=' '>
+      <div className='bg-base-200 '>
         <Header></Header>
-        <div className='bg-white rounded-3xl shadow-xl mx-auto  w-[97%]  '>
+        <div className='bg-white rounded-3xl shadow mx-auto  w-[97%]  '>
           <TypeCategories></TypeCategories>
           <Destination></Destination>
         </div>
