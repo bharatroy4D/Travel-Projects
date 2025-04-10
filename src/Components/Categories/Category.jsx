@@ -1,11 +1,20 @@
 import React from 'react';
 
-const Category = ({category ,handleFilterData}) => {
-    return (
-        <div>
-            <h1 onClick={()=>handleFilterData(category)} className='text-xl font-medium border hover: border-blue-600 rounded py-1 px-3 hover:bg-blue-600 hover:text-white hover:shadow'>{category.name}</h1>
-        </div>
-    );
+const Category = ({ category, handleFilterData, activeCategory }) => {
+  const isActive = activeCategory === category.name;  // Check if this category is active
+
+  return (
+    <div className="inline-block">
+      <button
+        onClick={() => handleFilterData(category)}  // Set the clicked category as active
+        className={`text-base font-medium border rounded py-1 px-3 transition duration-300
+          ${isActive ? 'bg-blue-600 text-white' : 'bg-transparent hover:bg-blue-600 hover:text-white'}
+        `}
+      >
+        {category.name}
+      </button>
+    </div>
+  );
 };
 
 export default Category;
