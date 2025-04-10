@@ -141,7 +141,7 @@ const Header = () => {
                 )}
 
                 {/* Hero Text */}
-                <div className="pt-20 md:pt-40 text-center text-white relative z-50 bottom-10 md:bottom-20 flex flex-col justify-center items-center h-screen">
+                <div className="pt-20 md:pt-40 text-center text-white relative z-50 bottom-10 flex flex-col justify-center items-center h-screen">
                     <h1 className="text-3xl md:text-7xl font-bold tracking-wide text-shadow-lg transition-all duration-500 ease-in-out hover:text-blue-400">
                         Explore the world together
                     </h1>

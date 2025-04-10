@@ -21,7 +21,7 @@ function App() {
     <>
       <div className='bg-base-200 '>
         <Header></Header>
-        <div className='bg-white rounded-3xl shadow mx-auto  w-[97%]  '>
+        <div className='bg-base-300 rounded-3xl shadow mx-auto  w-[97%]  '>
           <TypeCategories></TypeCategories>
           <Destination></Destination>
         </div>
