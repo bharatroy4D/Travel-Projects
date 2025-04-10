@@ -17,7 +17,7 @@ const Header = () => {
     const navItems = [
         {
             label: "Home",
-            links: ["Home one", "Home two", "Home three", "Home four"]
+            links: ["Home one", "Home two", "Home three", "Home four", "Home five", "Home seven"]
         },
         {
             label: "Categories",
@@ -33,11 +33,11 @@ const Header = () => {
         },
         {
             label: "News",
-            links: ["News", "News v1", "News v2", "News Details"]
+            links: ["News", "News v1", "News v2", "News v3", "News v4", "News Details"]
         },
         {
             label: "Contact",
-            links: ["Contact v1", "Contact v2"]
+            links: ["Contact v1", "Contact v2", "Contact v3", "Contact v4", "Contact v5", "Contact v6"]
         }
     ];
 
@@ -141,10 +141,16 @@ const Header = () => {
                 )}
 
                 {/* Hero Text */}
-                <div className="pt-20 md:pt-40 text-center text-white relative z-50">
-                    <h1 className="text-3xl md:text-7xl font-bold">Explore the world together</h1>
-                    <p className="text-sm md:text-3xl pt-4">Find awesome flights, hotel, tour, car and packages</p>
+                <div className="pt-20 md:pt-40 text-center text-white relative z-50 bottom-10 md:bottom-20 flex flex-col justify-center items-center h-screen">
+                    <h1 className="text-3xl md:text-7xl font-bold tracking-wide text-shadow-lg transition-all duration-500 ease-in-out hover:text-blue-400">
+                        Explore the world together
+                    </h1>
+                    <p className="text-sm md:text-3xl pt-4 opacity-80 transition-opacity duration-500 ease-in-out hover:opacity-100">
+                        Find awesome flights, hotels, tours, cars, and packages
+                    </p>
                 </div>
+
+
             </nav>
         </header>
     );
