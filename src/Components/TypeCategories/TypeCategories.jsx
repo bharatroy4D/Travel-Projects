@@ -17,12 +17,13 @@ const TypeCategories = () => {
   ];
 
   return (
-    <div className="w-[95%] mx-auto my-5">
+    <div data-aos="fade-up" data-aos-duration="1000"
+      className="w-[95%] mx-auto my-5">
       <div className="flex flex-wrap items-center justify-center gap-6 py-5">
         {categories.map((category, index) => (
           <button
             key={index}
-            className="flex items-center gap-2 text-xl border border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white rounded py-2 px-4 transition duration-300"
+            className="flex items-center gap-2 text-xl border border-blue-600 text-blue-600 bg-white hover:bg-blue-600 hover:text-white rounded py-2 px-4 transition duration-300"
           >
             {category.icon}
             <span>{category.name}</span>

@@ -5,10 +5,13 @@ import customer from '../../assets/customer.png';
 
 const Imagination = () => {
   return (
-    <div className="py-10 px-4 sm:px-6 md:px-16">
+    <div
+      className="py-10 px-4 sm:px-6 md:px-16 ">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {/* card-1 */}
-        <div className="card bg-base-100 shadow-sm hover:shadow-xl transition-transform hover:-translate-y-6 duration-700 border-b-4 border-blue-700">
+        <div
+
+          className="card bg-base-100 shadow-sm hover:shadow-xl transition-transform hover:-translate-y-6 duration-700 border-b-4 border-blue-700">
           <figure className="px-10 pt-10">
             <img
               src={plan}

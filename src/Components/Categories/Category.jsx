@@ -4,7 +4,8 @@ const Category = ({ category, handleFilterData, activeCategory }) => {
   const isActive = activeCategory === category.name;
 
   return (
-    <div className="inline-block ">
+    <div 
+     className="inline-block ">
       <button
         onClick={() => handleFilterData(category)}
         className={`text-lg font-semibold py-2 px-5 rounded-full transition-all duration-300

@@ -14,7 +14,8 @@ const Categories = ({ handleFilterData }) => {
     return (
         <div className='px-4 md:mx-16 py-10 '>
             {/* Header Section */}
-            <div className='flex justify-between items-center mb-8'>
+            <div  data-aos="fade-up"  data-aos-duration="1000"
+             className='flex justify-between items-center mb-8'>
                 <h1 className='text-3xl font-bold text-gray-800 hidden md:inline-flex'>Travel Places
                 </h1>
                 <div className='flex flex-wrap gap-4 justify-center'>

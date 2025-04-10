@@ -8,8 +8,10 @@ const Place = ({ place }) => {
     const { name, image, location, description, rating } = place;
 
     return (
-        <div>
+        <div 
+        data-aos="fade-up"  data-aos-duration="1000">
             <motion.div
+
                 whileHover={{ scale: 1.03 }}
                 initial={{ opacity: 0, y: 50 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -17,7 +19,8 @@ const Place = ({ place }) => {
                 className="bg-white/30 backdrop-blur-md border border-white/20 rounded-2xl shadow-xl overflow-hidden transition-all duration-500"
             >
                 {/* Image Section */}
-                <div className="relative w-full h-52 overflow-hidden group">
+                <div
+                 className="relative w-full h-52 overflow-hidden group">
                     <img
                         src={image}
                         alt={name}
