@@ -18,7 +18,7 @@ const PopularTours = () => {
     <div className="px-4 sm:px-6 md:px-10 lg:px-16 py-10 max-w-7xl mx-auto">
       {/* Section Header */}
       <div className="flex flex-col md:flex-row justify-between items-center mb-8 gap-4 md:gap-0">
-        <h1 className="text-3xl md:text-4xl font-bold text-gray-800">Popular Tours</h1>
+        <h1 className="text-3xl md:text-3xl font-bold text-gray-800">Popular Tours</h1>
         <div className="hidden md:flex items-center gap-3 text-3xl text-gray-600">
           <FaArrowCircleLeft className="hover:text-blue-600 cursor-pointer hover:scale-110 transition duration-300" />
           <FaArrowCircleRight className="hover:text-blue-600 cursor-pointer hover:scale-110 transition duration-300" />

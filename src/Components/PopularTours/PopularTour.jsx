@@ -28,7 +28,6 @@ const PopularTour = ({ popularTour }) => {
   </div>
 </div>
 
-
       {/* Info Section */}
       <div className="p-5 flex flex-col justify-between h-[calc(100%-13rem)]">
         <div className="flex items-center justify-between mb-2">

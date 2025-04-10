@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import Place from './Place';
 
-const Places = ({data}) => {
+
+const Places = ({data}) => {      
     const [places, setPlaces] = useState([])
     useEffect( ()=>{
         fetch('place.json')
