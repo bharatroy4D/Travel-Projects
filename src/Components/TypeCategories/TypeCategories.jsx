@@ -12,39 +12,38 @@ const TypeCategories = () => {
             icon: <GiAirplaneDeparture className='text-2xl' />
         },
         {
-            name:"Tour",
-            icon:<TfiWorld/>
+            name: "Tour",
+            icon: <TfiWorld className="text-2xl" />
         },
         {
-            name:"Hotel",
-            icon:<FaHotel/>
+            name: "Hotel",
+            icon: <FaHotel className="text-2xl" />
         },
         {
-            name:"Visa",
-            icon:<FaCcVisa/>
+            name: "Visa",
+            icon: <FaCcVisa className="text-2xl" />
         },
         {
-            name:"Apartments",
-            icon:<MdApartment/>
+            name: "Apartments",
+            icon: <MdApartment className="text-2xl" />
         },
         {
-            name:"Bus",
-            icon:<FaBus/>
+            name: "Bus",
+            icon: <FaBus className="text-2xl" />
+        },
+        {
+            name: "Cruise",
+            icon: <SiMentorcruise className="text-2xl" />
+        },
+    ];
 
-        },
-        {
-            name:"Cruise",
-            icon:<SiMentorcruise/>
-
-        },
-    ]
     return (
         <div>
-            <div className='flex flex-wrap items-center justify-center gap-6 py-5 w-[95%] mx-auto  my-5 '>
+            <div className='flex flex-wrap items-center justify-center gap-6 py-5 w-[95%] mx-auto my-5'>
                 {
-                    categories.map(category =>(
-                        <div className='flex items-center gap-2 text-xl border hover:bg-blue-600 hover:text-white hover:border-none hover:cursor-pointer  border-blue-600 rounded py-2 px-4'>
-                            <h1>{category.icon}</h1>
+                    categories.map((category, index) => (
+                        <div key={index} className='flex items-center gap-2 text-xl font-semibold border hover:bg-blue-600 hover:text-white hover:border-none hover:cursor-pointer border-blue-600 rounded py-2 px-4 transition-all duration-300 ease-in-out focus:outline-none'>
+                            <div className="flex items-center justify-center">{category.icon}</div>
                             <h2>{category.name}</h2>
                         </div>
                     ))
