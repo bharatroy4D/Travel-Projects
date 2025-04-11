@@ -85,7 +85,7 @@ const Header = () => {
                 </div>
 
                 {/* Middle Navigation */}
-                <div className="flex justify-between items-center py-4">
+                <div className="flex justify-between items-center py-4 sticky top-0">
                     <img src={logo} className="w-36" />
                     <div className="md:hidden">
                         <button onClick={() => setMenuOpen(!menuOpen)}>

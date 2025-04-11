@@ -3,14 +3,15 @@ import { IoMailOpenOutline } from 'react-icons/io5';
 
 const NewsLatter = () => {
     return (
-        <div className='md:flex justify-between items-center max-w-7xl px-10  py-20 bg-blue-50'>
+        <div data-aos="zoom-in" data-aos-duration="1000"
+         className=' md:flex justify-between items-center max-w-7xl px-10  py-20 bg-blue-50'>
             {/* div-1 */}
             <div>
-                <div className='flex gap-5 items-center'>
+                <div className='flex flex-col md:flex-row gap-5 items-center'>
                     <IoMailOpenOutline className='text-9xl text-blue-600' />
                     <div>
-                        <h4 className='text-2xl font-semibold'>Get the latest news and offers</h4>
-                        <h1 className='text-3xl font-bold pt-'>Subscribe to our newsletter</h1>
+                        <h4 className='text-2xl font-semibold text-center md:text-left'>Get the latest news and offers</h4>
+                        <h1 className='text-3xl font-bold text-center md:text-left'>Subscribe to our newsletter</h1>
                     </div>
                 </div>
             </div>
