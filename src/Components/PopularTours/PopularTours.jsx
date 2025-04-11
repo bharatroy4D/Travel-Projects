@@ -15,7 +15,7 @@ const PopularTours = () => {
   const popularData = popularTours.filter(tour => tour.category === 'Historical');
 
   return (
-    <div className="px-4 sm:px-6 md:px-10 lg:px-16 py-10 max-w-7xl mx-auto">
+    <div className="px-4 sm:px-6 md:px-10 lg:px-16 py-10  mx-auto">
       {/* Section Header */}
       <div  data-aos="fade-up"  data-aos-duration="1000"
       className="flex flex-col md:flex-row justify-between items-center mb-8 gap-4 md:gap-0">
