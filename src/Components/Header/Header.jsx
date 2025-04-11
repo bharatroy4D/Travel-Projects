@@ -48,7 +48,7 @@ const Header = () => {
                 <img src={hero} alt="Hero" className="w-full h-screen object-cover opacity-95" />
             </div>
 
-            <nav className="absolute z-40 w-full px-4 md:px-10 max-w-7xl mx-auto">
+            <nav className="absolute z-40 w-full px-4 md:px-10  mx-auto">
                 {/* Top Bar */}
                 <div className="hidden md:flex justify-between py-2 border-b border-base-100/20">
                     <div className="flex items-center gap-3 text-white">
@@ -86,7 +86,7 @@ const Header = () => {
 
                 {/* Middle Navigation */}
                 <div className="flex justify-between items-center py-4 sticky top-0">
-                    <img src={logo} className="w-36" />
+                    <img src={logo} className="w-40" />
                     <div className="md:hidden">
                         <button onClick={() => setMenuOpen(!menuOpen)}>
                             {menuOpen ? <HiX className="text-white text-3xl" /> : <HiOutlineMenuAlt3 className="text-white text-3xl" />}
@@ -96,7 +96,7 @@ const Header = () => {
                         <ul className="flex items-center gap-5 text-white">
                             {navItems.map((item, i) => (
                                 <li key={i} className="relative group">
-                                    <button className="flex items-center gap-1 hover:text-black">
+                                    <button className="flex items-center md:text-2xl gap-1 hover:text-black">
                                         {item.label} <IoIosArrowDown />
                                     </button>
                                     <ul className="hidden group-hover:block absolute bg-white text-black mt-2 rounded shadow-md w-48 p-2 z-50">
